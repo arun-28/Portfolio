@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <nav class="sidebar" id="nav-links">
+            <a href="index.html" >Home</a>
+            <a href="About.html" class="glowing-text">About</a>
+            <a href="certificate.html">Certificates</a>
+            <a href="project.html" >Project</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" >Contact</a>
+        </nav>
+    </header>
+    <div class="home">
+        <div class="first">
+            <h2 class="glowing-text">For now, only certificate section is in working<br>Asuvidha K Liye Khed Hai <br>The Site will be constructed soon</h2>
+        </div>
+        <div class="image-container">
+            <img src="homeimg/construction.jpg" class="imgss" alt="sorry">
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
