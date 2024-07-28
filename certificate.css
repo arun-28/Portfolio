@@ -32,32 +32,23 @@ header a {
 
 }
 
-.glowing-text {
 
+   .glowing-text {
     color: #fff;
     animation: glow 3s infinite;
 }
 
 @keyframes glow {
     from {
-        text-shadow:
-            0 0 5px #00ff44,
-            0 0 10px #00d9ff,
-
-            0 0 15px #00fff2;
+        text-shadow: 0 0 5px #00ff44, 0 0 10px #00d9ff, 0 0 15px #00fff2;
         color: #fff;
     }
 
     to {
-        text-shadow:
-            0 0 15px #001eff,
-            0 0 30px #001eff,
-            0 0 45px #001eff;
-
-        color: #001eff;
+        text-shadow: 0 0 15px #d5d6da, 0 0 30px #a7aabf, 0 0 45px #e4e5f1;
+        color: #c8e9dc;
     }
 }
-
 .certificate {
 
     height: calc(90vh);
